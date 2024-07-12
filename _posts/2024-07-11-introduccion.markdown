@@ -90,4 +90,29 @@ Un tipo de gramática genera una clase de lenguajes y un modelo de computación 
 
 La correspondencia indicada en la tabla es un resultado de la **abstracción**.
 
+## Compiladores
+
+### Descripción
+
+Usualmente la **compilación** es la translación de un programa en un lenguaje de programación (lenguaje fuente) en un programa ejecutable en un lenguaje de máquina[^1] (lenguaje destino).
+
+Un **compilador** es un **programa** que realiza una compilación.
+
+### Otros programas requeridos para generar un programa ejecutable
+
+<img src="/LFCBlog/assets/0001_compilador" alt="img: Figura 1.5 de (Aho et al. 2008)">
+
+### Partes de un compilador
+
+Las partes generales de un compilador son la **parte de análisis** (o *front-end*) y la **parte de síntesis** (o *back-end*) (*Aho et al. 2008*, pág. 4):
+
+1. **Parte de análisis**: 
+   - *«La parte del análisis divide el programa fuente en componentes e impone una estructura gramatical sobre ellas. Después utiliza esta estructura para crear una representación intermedia del programa fuente... La parte del análisis también recolecta información sobre el programa fuente y la almacena en una estructura de datos llamada tabla de símbolos.»*
+
+2. **Parte de síntesis**:
+   - *«La parte de la síntesis construye el programa destino deseado a partir de la representación intermedia y de la información en la tabla de símbolos.»*
+
+
+[^1]: Lenguaje binario que es leído, interpretado y ejecutado por la CPU.
+
 **¡Gracias por leer este post!**
