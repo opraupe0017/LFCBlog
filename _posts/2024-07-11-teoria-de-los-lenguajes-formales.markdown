@@ -52,7 +52,8 @@ El **conjunto de todas las cadenas** (incluyendo la palabra vacía) sobre un alf
 
 Un **lenguaje** sobre un alfabeto $\Sigma$ es cualquier subconjunto de $\Sigma^*$.
 
-### Observación
+**Observaciones**
+
 - *Kozen (2012) no define el término «lenguaje» explícitamente. En su lugar el texto habla de conjuntos.*
 - **Note que** $\emptyset \neq \\{\varepsilon\\} \neq \varepsilon$.
 
@@ -139,7 +140,7 @@ Sean $L$, $L_1$ y $L_2$ lenguajes sobre un alfabeto $\Sigma$.
 
    $$
    \begin{align*}
-   L^0 &= \\{ \varepsilon \\} \\
+   L^0 &= \{ \varepsilon \} \\
    L^{n+1} &= L L^n.
    \end{align*}
    $$
