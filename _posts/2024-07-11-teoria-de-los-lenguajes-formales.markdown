@@ -18,10 +18,9 @@ author: Oscar García
 La referencia principal para estas diapositivas es _Kozen (2012, Lectura 2)_.
 
 ### Convenciones
-1. Los números asignados a las **definiciones**, **ejemplos**, **ejercicios**, **páginas** y **teoremas** en estas diapositivas corresponden a los números asignados en _Kozen (2012)_.
-2. Los números naturales incluyen el cero, es decir, $ \mathbb{N} = \\{0, 1, 2, \ldots\\} $.
-3. El conjunto potencia de un conjunto $ A $ es denotado $ 2^A $.
-4. Los términos **definición inductiva** y **definición recursiva** se usan como sinónimos.
+1. Los números naturales incluyen el cero, es decir, $ \mathbb{N} = \\{0, 1, 2, \ldots\\} $.
+2. El conjunto potencia de un conjunto $ A $ es denotado $ 2^A $.
+3. Los términos **definición inductiva** y **definición recursiva** se usan como sinónimos.
 
 ## Problemas de decisión
 
@@ -161,7 +160,7 @@ Sean $L$, $L_1$ y $L_2$ lenguajes sobre un alfabeto $\Sigma$.
 
 1. Dado que los lenguajes son conjuntos, las operaciones de unión e intersección sobre lenguajes son **asociativas**, **conmutativas** y cada una distribuye sobre la otra. Además, satisfacen las **leyes de De Morgan** y el lenguaje $\emptyset$ es la **identidad para la unión**.
 
-2. El lenguaje $\{\varepsilon\}$ es la **identidad para la concatenación**, es decir,
+2. El lenguaje $\\{\varepsilon\\}$ es la **identidad para la concatenación**, es decir,
 
    $$L \{\varepsilon\} = \{\varepsilon\} L = L.$$
 
