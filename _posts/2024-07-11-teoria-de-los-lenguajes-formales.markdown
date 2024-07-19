@@ -183,3 +183,5 @@ Sean $L$, $L_1$ y $L_2$ lenguajes sobre un alfabeto $\Sigma$.
 ## Referencias
 
 - Kozen, Dexter C. [1997] (2012). *Automata and Computability*. Third printing. Undergraduate Texts in Computer Science. Springer. doi: 10.1007/978-1-4612-1844-9 (vid. págs. 2, 11-13).
+
+**¡Gracias por leer este post!**
