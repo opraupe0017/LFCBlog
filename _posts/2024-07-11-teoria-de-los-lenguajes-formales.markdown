@@ -41,7 +41,7 @@ $$ f : A \to \{0, 1\} .$$
 - Los símbolos se denotarán por las primeras letras minúsculas $a, b, c, \ldots$
 - Las cadenas se denotarán por las últimas letras minúsculas $w, x, y, z, \ldots$
 
-## Definición del conjunto de todas las cadenas $\Sigma^\ast$
+## Definición del conjunto de todas las cadenas: $\Sigma^\ast$
 
 El **conjunto de todas las cadenas** (incluyendo la palabra vacía) sobre un alfabeto $\Sigma$ es denotado $\Sigma^\ast$. Este conjunto puede ser inductivamente definido por:
 - **Paso base:** $\varepsilon \in \Sigma^\ast$,
@@ -53,10 +53,11 @@ Un **lenguaje** sobre un alfabeto $\Sigma$ es cualquier subconjunto de $\Sigma^*
 
 **Observaciones**
 
+- El conjunto de todos los lenguajes es $2^{\Sigma^\ast}$.
 - *Kozen (2012) no define el término «lenguaje» explícitamente. En su lugar el texto habla de conjuntos.*
 - **Note que** $\emptyset \neq \\{\varepsilon\\} \neq \varepsilon$.
 
-## Definición longitud de una cadena $\|x\|$
+## Definición longitud de una cadena: $\|x\|$
 
 La **longitud de una cadena** $x$ sobre un alfabeto $\Sigma$, denotada $\|x\|$, es el número de símbolos en $x$. Esta función es definida recursivamente por:
 
@@ -71,7 +72,7 @@ La **longitud de una cadena** $x$ sobre un alfabeto $\Sigma$, denotada $\|x\|$, 
 \end{align*}
 $$ -->
 
-## Definición $a^n$ ($n$ potencias de $a$)
+## Definición $a^n$ ($n$ potencia de $a$)
 
 Sea $a$ un símbolo de un alfabeto $\Sigma$. Las **potencias de** $a$, para $n \geq 0$, denotadas $a^n$, es la palabra formada por $n$ repeticiones del símbolo $a$. Esta operación es definida recursivamente por:
 
@@ -107,7 +108,7 @@ Sean $x,y,z \in \Sigma^\ast$ cadenas.
 
 4. $\|xy\| = \|x\| + \|y\|$.
 
-## Definición operaciones entre lenguajes $\cup$, $\cap$, $\sim$, $\cdot$
+## Definición operaciones entre lenguajes $\cup$, $\cap$, $\sim$, $\cdot$. $\ast$ y $+$
 
 Sean $L$, $L_1$ y $L_2$ lenguajes sobre un alfabeto $\Sigma$.
 
