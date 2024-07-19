@@ -31,25 +31,21 @@ En relación con la **abstracción**, *Kozen (2012, pág. 5)* escribió:
 En relación con la **abstracción**, *Aho et al. (2006, pág. 15)* escribieron:
 *El diseño de compiladores está lleno de bellos ejemplos donde problemas del mundo real complicados se resuelven al abstraer la esencia del problema matemáticamente. Estos sirven como excelentes ilustraciones de cómo se pueden usar abstracciones para resolver problemas: tomar un problema, formular una abstracción matemática que capture las características clave y resolverlo usando técnicas matemáticas. La formulación del problema debe estar fundamentada en una comprensión sólida de las características de los programas informáticos, y la solución debe ser validada y refinada empíricamente.*
 
-## Modelos de computación
+## Modelos de computaciónen orden creciente de poder computacional
 
-### Modelos de computación en orden creciente de poder computacional
+- **Memoria finita**
+  1. **Autómatas finitos** (*McCulloch y Pitts 1943*).
+  2. **Expresiones regulares** (*Kleene 1956*).
 
-**Memoria finita**
-1. **Autómatas finitos** (*McCulloch y Pitts 1943*).
-2. **Expresiones regulares** (*Kleene 1956*).
+- **Memoria finita y una pila:** Autómatas a pila (*Oettinger 1961*).
 
-**Memoria finita y una pila:** Autómatas a pila (*Oettinger 1961*).
+- **Memoria linealmente acotada:** Autómatas linealmente acotados (*Myhill 1960*).
 
-**Memoria linealmente acotada:** Autómatas linealmente acotados (*Myhill 1960*).
+- **Memoria no acotada (infinita)**
+  1. **Máquinas de Turing** (*Turing 1936-1937*).
+  2. **Cálculo lambda** (*Church 1936*).
 
-**Memoria no acotada (infinita)**
-1. **Máquinas de Turing** (*Turing 1936-1937*).
-2. **Cálculo lambda** (*Church 1936*).
-
-### Observación
-
-Algunos de los modelos anteriores fueron definidos antes de que los computadores fueran creados.
+**Observación:** Algunos de los modelos anteriores fueron definidos antes de que los computadores fueran creados.
 
 ## Gramáticas y lenguajes
 
@@ -86,9 +82,7 @@ Un tipo de gramática genera una clase de lenguajes y un modelo de computación 
 | 1                     | **Dependientes del contexto**          | **Autómatas linealmente acotados**  |
 | 0                     | **Recursivamente enumerables**         | **Máquinas de Turing**              |
 
-### Observación
-
-La correspondencia indicada en la tabla es un resultado de la **abstracción**.
+**Observación:** La correspondencia indicada en la tabla es un resultado de la **abstracción**.
 
 ## Compiladores
 
