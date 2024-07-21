@@ -12,6 +12,8 @@ author: Oscar García
 * TOC
 {:toc}
 
+---
+
 ## Preliminares
 
 ### Referencias
@@ -22,6 +24,8 @@ La referencia principal para estas diapositivas es _Kozen (2012, Lectura 2)_.
 2. El conjunto potencia de un conjunto $ A $ es denotado $ 2^A $.
 3. Los términos **definición inductiva** y **definición recursiva** se usan como sinónimos.
 
+---
+
 ## Problemas de decisión
 
 Un **problema de decisión** sobre un conjunto $ A $ (el dominio del problema) es una función
@@ -29,6 +33,8 @@ Un **problema de decisión** sobre un conjunto $ A $ (el dominio del problema) e
 $$ f : A \to \{0, 1\} .$$
 
 **Observación:** Usualmente solo será necesario considerar los problemas de decisión.
+
+---
 
 ## Definición del alfabeto $\Sigma$, símbolo $a$, cadena $x$ y cadena vacía $\varepsilon$
 
@@ -41,11 +47,15 @@ $$ f : A \to \{0, 1\} .$$
 - Los símbolos se denotarán por las primeras letras minúsculas $a, b, c, \ldots$
 - Las cadenas se denotarán por las últimas letras minúsculas $w, x, y, z, \ldots$
 
+---
+
 ## Definición del conjunto de todas las cadenas: $\Sigma^\ast$
 
 El **conjunto de todas las cadenas** (incluyendo la palabra vacía) sobre un alfabeto $\Sigma$ es denotado $\Sigma^\ast$. Este conjunto puede ser inductivamente definido por:
 - **Paso base:** $\varepsilon \in \Sigma^\ast$,
 - **Paso inductivo:** Si $x \in \Sigma^\ast$ y $a \in \Sigma$ entonces $xa \in \Sigma^\ast$.
+
+---
 
 ## Definición de lenguaje
 
@@ -56,6 +66,8 @@ Un **lenguaje** sobre un alfabeto $\Sigma$ es cualquier subconjunto de $\Sigma^*
 - El conjunto de todos los lenguajes es $2^{\Sigma^\ast}$.
 - *Kozen (2012) no define el término «lenguaje» explícitamente. En su lugar el texto habla de conjuntos.*
 - **Note que** $\emptyset \neq \\{\varepsilon\\} \neq \varepsilon$.
+
+---
 
 ## Definición longitud de una cadena: $\|x\|$
 
@@ -72,12 +84,16 @@ La **longitud de una cadena** $x$ sobre un alfabeto $\Sigma$, denotada $\|x\|$, 
 \end{align*}
 $$ -->
 
+---
+
 ## Definición $a^n$ ($n$ potencia de $a$)
 
 Sea $a$ un símbolo de un alfabeto $\Sigma$. Las **potencias de** $a$, para $n \geq 0$, denotadas $a^n$, es la palabra formada por $n$ repeticiones del símbolo $a$. Esta operación es definida recursivamente por:
 
 - $a^0 = \varepsilon$
 - $a^{n+1} = a^n a$.
+
+---
 
 ## Definición concatenación $xy$
 
@@ -89,6 +105,8 @@ Sean $x$ y $y$ dos palabras sobre un alfabeto $\Sigma$. La **concatenación de**
 En general, si $x = a_1a_2\cdots a_n$ y $y = b_1b_2\cdots b_m$ donde $a_i, b_j \in \Sigma$ para $i = 1, 2, \ldots, n$ y $j = 1, 2, \ldots, m$, entonces
 
 $$xy = a_1a_2\cdots a_nb_1b_2\cdots b_m.$$
+
+---
 
 ## Algunas propiedades de la concatenación
 
@@ -107,6 +125,8 @@ Sean $x,y,z \in \Sigma^\ast$ cadenas.
    $$xy \neq yx.$$
 
 4. $\|xy\| = \|x\| + \|y\|$.
+
+---
 
 ## Definición operaciones entre lenguajes $\cup$, $\cap$, $\sim$, $\cdot$. $\ast$ y $+$
 
@@ -157,6 +177,8 @@ Sean $L$, $L_1$ y $L_2$ lenguajes sobre un alfabeto $\Sigma$.
     L^+ = L L^\ast = \bigcup_{n \ge 1} L^n.
     $$
 
+---
+
 ## Algunas propiedades de las operaciones entre lenguajes
 
 1. Dado que los lenguajes son conjuntos, las operaciones de unión e intersección sobre lenguajes son **asociativas**, **conmutativas** y cada una distribuye sobre la otra. Además, satisfacen las **leyes de De Morgan** y el lenguaje $\emptyset$ es la **identidad para la unión**.
@@ -180,8 +202,12 @@ Sean $L$, $L_1$ y $L_2$ lenguajes sobre un alfabeto $\Sigma$.
    \end{align*}
    $$
 
+---
+
 ## Referencias
 
-- Kozen, Dexter C. [1997] (2012). *Automata and Computability*. Third printing. Undergraduate Texts in Computer Science. Springer. doi: 10.1007/978-1-4612-1844-9 (vid. págs. 2, 11-13).
+- Kozen, Dexter C. [1997] (2012). *Automata and Computability*. Third printing. Undergraduate Texts in Computer Science. Springer. doi: 10.1007/978-1-4612-1844-9.
+
+---
 
 **¡Gracias por leer este post!**
