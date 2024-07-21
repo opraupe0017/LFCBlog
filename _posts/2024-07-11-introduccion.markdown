@@ -13,6 +13,8 @@ Este blog tiene como objetivo establecer relaciones entre los modelos de computa
 * TOC
 {:toc}
 
+---
+
 ## Tópicos principales y bibliografía
 
 1. **Teoría de los lenguajes formales:** Definiciones y operaciones básicas (Kozen 2012, Lectura 2).
@@ -23,6 +25,8 @@ Este blog tiene como objetivo establecer relaciones entre los modelos de computa
 6. **Análisis sintáctico ascendente:** (Aho et al. 2006, § 4.5.1–4.5.5, § 4.6.1–4.6.4, § 4.6.6).
 7. **Semántica de traducción y análisis estático:** (Crespi Reghizzi et al. 2019, § 5.1–5.4, § 5.5–5.7).
 
+---
+
 ## Abstracción
 
 En relación con la **abstracción**, *Kozen (2012, pág. 5)* escribió:
@@ -30,6 +34,8 @@ En relación con la **abstracción**, *Kozen (2012, pág. 5)* escribió:
 
 En relación con la **abstracción**, *Aho et al. (2006, pág. 15)* escribieron:
 *El diseño de compiladores está lleno de bellos ejemplos donde problemas del mundo real complicados se resuelven al abstraer la esencia del problema matemáticamente. Estos sirven como excelentes ilustraciones de cómo se pueden usar abstracciones para resolver problemas: tomar un problema, formular una abstracción matemática que capture las características clave y resolverlo usando técnicas matemáticas. La formulación del problema debe estar fundamentada en una comprensión sólida de las características de los programas informáticos, y la solución debe ser validada y refinada empíricamente.*
+
+---
 
 ## Modelos de computaciónen orden creciente de poder computacional
 
@@ -46,6 +52,8 @@ En relación con la **abstracción**, *Aho et al. (2006, pág. 15)* escribieron:
   2. **Cálculo lambda** (*Church 1936*).
 
 **Observación:** Algunos de los modelos anteriores fueron definidos antes de que los computadores fueran creados.
+
+---
 
 ## Gramáticas y lenguajes
 
@@ -84,6 +92,8 @@ Un tipo de gramática genera una clase de lenguajes y un modelo de computación 
 
 **Observación:** La correspondencia indicada en la tabla es un resultado de la **abstracción**.
 
+---
+
 ## Compiladores
 
 ### Descripción
@@ -110,6 +120,8 @@ Las partes generales de un compilador son la **parte de análisis** (o *front-en
 
 <img src="/LFCBlog/assets/0002_compilador.png" alt="img: Figura 1.6 de (Aho et al. 2008)">
 
+---
+
 ## Referencias
 
 - Aho, Alfred V., Monica S. Lam, Ravi Sethi y Jeffrey D. Ullman [1986] (2006). *Compilers: Principles, Techniques, & Tools*. 2.a ed. Addison-Wesley (vid. págs. 8, 9, 11).
@@ -123,5 +135,7 @@ Las partes generales de un compilador son la **parte de análisis** (o *front-en
 - Turing, Alan M. (1936-1937). «On Computable Numbers, with an Application to the Entscheidungsproblem». En: *Proceedings of the London Mathematical Society* s2-42, págs. 230-265. doi: [10.1112/plms/s2-42.1.230](https://doi.org/10.1112/plms/s2-42.1.230) (vid. págs. 12, 13).
 
 [^1]: Lenguaje binario que es leído, interpretado y ejecutado por la CPU.
+
+---
 
 **¡Gracias por leer este post!**
