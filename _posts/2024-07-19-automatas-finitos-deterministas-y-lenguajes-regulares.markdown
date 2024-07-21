@@ -17,7 +17,7 @@ author: Oscar García
 
 ### Referencias
 
-Las referencias principales para estas diapositivas son (*Kozen 2012, Lecturas 3–6, 8, 11*).
+Las referencias principales para este artículo son (*Kozen 2012, Lecturas 3 y 4*).
 
 ### Convenciones
 
