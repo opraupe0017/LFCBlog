@@ -17,7 +17,7 @@ author: Oscar García
 ## Preliminares
 
 ### Referencia
-La referencia principal para este artículos es _Kozen (2012, Lectura 2)_.
+La referencia principal para este artículo es _Kozen (2012, Lectura 2)_.
 
 ### Convenciones
 1. Los números naturales incluyen el cero, es decir, $ \mathbb{N} = \\{0, 1, 2, \ldots\\} $.
