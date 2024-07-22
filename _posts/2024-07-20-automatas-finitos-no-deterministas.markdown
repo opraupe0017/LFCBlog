@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Autómatas finitos no deterministas"
-date:   2024-07-20 14:43:00 -0500
+date:   2024-07-29 14:43:00 -0500
 categories: autómatas finitos lenguajes regulares
 author: Oscar García
 ---
@@ -71,23 +71,7 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 5 y 6
 > \end{align*}
 > $$
 
-> ##### TIP
->
-> A tip can be used when you want to give advice
-> related to a certain content.
-{: .block-tip }
-
-> ##### WARNING
->
-> This is a warning, and thus should
-> be used when you want to warn the user
-{: .block-warning }
-
-> ##### DANGER
->
-> This is a danger zone, and thus should
-> be used carefully
-{: .block-danger }
+<blockquote class="green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</blockquote>
 
 ---
 
