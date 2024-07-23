@@ -6,9 +6,7 @@ categories: autómatas finitos lenguajes regulares
 author: Oscar García
 ---
 
-{% if page.my_variable %}
-  {% include {{ page.my_variable }} %}
-{% endif %}
+El contenido de este artículo le pertenece al Profesor [**Andrés Sicard Ramírez**](http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html), quien me ha permitido compartirlo por este medio.
 
 ## Contenidos
 {:.no_toc}
@@ -61,7 +59,7 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 5 y 6
 
 ## Definición Función de transición extendida para AFNDs: $\hat{\Delta}$
 
-> Sea $N = (Q, \Sigma, \Delta, S, F)$ un **AFND**. La **función de transición extendida**, denotada $\hat{\Delta}$, está recursivamente definida por:
+> **Definición:** Sea $N = (Q, \Sigma, \Delta, S, F)$ un **AFND**. La **función de transición extendida**, denotada $\hat{\Delta}$, está recursivamente definida por:
 >
 > $$
 > \begin{align*}
@@ -71,7 +69,52 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 5 y 6
 > \end{align*}
 > $$
 
-<blockquote class="green">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</blockquote>
+---
+
+## Representaciones del AFD
+
+De forma similar a los **AFD**s, los **AFND**s tienen dos maneras de ser representados:
+
+- **Diagrama de transición:** Un diagrama que muestra los estados como nodos y las transiciones como aristas dirigidas etiquetadas con los símbolos del alfabeto de entrada, *permitiendo transiciones simultáneas, ausencia de algunas transiciones y transiciones $\varepsilon$* (**VER AQUÍ**). Esta es la forma más sencilla de representar un AFND.
+- **Listando cada una de sus partes:** Consiste en describir $Q$, $\Sigma$, los pares ordenados de la función de transición $\Delta$, $S$ y $F$.
+
+### Ejemplo
+
+Encontrar un **AFND** que "acepte" el lenguaje
+
+$$L = \{ x \in \{0, 1\}^* \mid \text{el segundo símbolo desde la derecha es} \ 1\}.$$
+
+y expresarlo con las dos representaciones.
+
+### Actividad 1
+
+1. Encontrar un **AFND**, con la representación de su preferencia, que "acepte" el lenguaje
+
+   $$L = \{ x \in \{ 0, 1 \}^* \mid \text{el quinto símbolo desde la derecha es} \ 1 \ \text{y el tercero es} \ 0\}.$$
+
+1. Encontrar un **AFND**, con la representación de su preferencia, que "acepte" la palabra `help`, es decir, que "acepte" el lenguaje
+
+   $$L = \{ \text{help} \}.$$
+
+> **Observaciones:** 
+>
+> - _Estamos hablando desde ahora de lo que puede aceptar un AFND mas no lo hemos definido formalmente aún. En la próxima sección vamos a ver qué es lo que significa._
+> - _También para representar un AFND, contamos con una representación adicional, la de tabla, esta se obtiene por medio del proceso de la construcción de subconjuntos. Esto lo veremos más adelante._
+
+---
+
+## Definición de lenguajes aceptados por los AFNs
+
+> **Definición:** Sea $N = (Q, \Sigma, \Delta, S, F)$ un **AFND** y sea $x \in \Sigma^*$.
+> 
+> 1. La palabra $x$ es **aceptada** por $N$ sí y sólo sí $\Delta(\hat{S}, x) \cap F \neq \emptyset$.
+> 
+> 1. La palabra $x$ es **rechazada** por $N$ sí y sólo sí $\Delta(\hat{S}, x) \cap F = \emptyset$.
+> 
+> 1. El **lenguaje aceptado** por el autómata $N$, denotado $L(N)$, es el conjunto de palabras aceptadas por $N$, es decir,
+> 
+>    $$L(N) \stackrel{\text{def}}{=} \{ x \in \Sigma^* \mid \Delta(\hat{S}, x) \cap F \neq \emptyset \}.$$
+
 
 ---
 

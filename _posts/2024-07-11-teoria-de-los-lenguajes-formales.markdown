@@ -6,6 +6,8 @@ categories: lenguajes formales
 author: Oscar García
 ---
 
+El contenido de este artículo le pertenece al Profesor [**Andrés Sicard Ramírez**](http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html), quien me ha permitido compartirlo por este medio.
+
 ## Contenidos
 {:.no_toc}
 
