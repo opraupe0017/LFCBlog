@@ -58,7 +58,7 @@ Los AFDs se pueden representar de varias formas equivalentes:
 - **Diagrama de transición:** Un diagrama que muestra los estados como nodos y las transiciones como aristas dirigidas etiquetadas con los símbolos del alfabeto de entrada.
 - **Tabla de transición:** Una tabla donde las filas representan los estados y las columnas representan los símbolos del alfabeto de entrada, y cada celda indica el estado resultante de aplicar la función de transición a un estado y un símbolo dados. Se indica con $\to$ el estado inicial u con $F$ todos los estados finales.
 
-### Actividad 1
+### Ejemplo 1
 
 Para el siguiente AFD representado listando cada una de sus partes, encontrar las otras dos representaciones si es posible: $M = (Q, \Sigma, \delta, s, F)$
 
@@ -91,9 +91,9 @@ $$
 \end{align}
 $$
 
-### Ejemplo
+### Ejemplo 2.
 
-Para el AFD de la actividad de [más arriba](#actividad-1) $M = (Q, \Sigma, \delta, s, F)$ así se consumiría la cadena de entrada $baa$ a través de la función de transición $\delta$:
+Para el AFD de la actividad de [más arriba](#ejemplo-1) $M = (Q, \Sigma, \delta, s, F)$ así se consumiría la cadena de entrada $baa$ a través de la función de transición $\delta$:
 
 $$
 \begin{align}
@@ -125,7 +125,7 @@ $$
 L(M) = \{ x \in \Sigma^\ast \mid \hat{\delta}(s, x) \in F \}.
 $$
 
-**Pregunta:** ¿Cuál es el lenguaje de aceptación de la actividad de [más arriba](#actividad-1)?
+**Pregunta:** ¿Cuál es el lenguaje de aceptación de la actividad de [más arriba](#ejemplo-1)?
 
 ---
 ## Definición Lenguajes regulares
@@ -136,7 +136,7 @@ $$L = L(M).$$
 
 **Observación:** _Kozen (2012) no habla de «lenguajes regulares» sino de «conjuntos regulares»._
 
-### Actividad 2
+### Actividad 1
 
 1. Sea $L$ el conjunto de palabras sobre $\{a, b\}$ que tienen un número par de $a$es y tienen un número par de $b$es. Demostrar que el lenguaje $L$ es un lenguaje regular.
 1. Dado un alfabeto $\Sigma$ ¿El conjunto $\Sigma^\ast$ es un lenguaje regular?
