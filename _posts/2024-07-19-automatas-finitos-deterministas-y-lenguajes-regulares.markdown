@@ -79,7 +79,7 @@ $$
 **Observación:** Siempre es posible representar un ADF de las $3$ formas.
 
 ---
-## Definición función de transición extendida para AFDs
+## Definición función de transición extendida para AFDs: $\hat{\delta}$
 
 > **Definición:** Sea $D = (Q, \Sigma, \delta, s, F)$ un AFD. La **función de transición extendida**[^1], denotada $\hat{\delta}$, es recursivamente definida por:
 > 
@@ -93,11 +93,11 @@ $$
 
 ### Ejemplo 2.
 
-Para el AFD de la actividad de [más arriba](#ejemplo-1) $M = (Q, \Sigma, \delta, s, F)$ así se consumiría la cadena de entrada $baa$ a través de la función de transición $\delta$:
+Para el AFD del ejemplo de [más arriba](#ejemplo-1) $M = (Q, \Sigma, \delta, s, F)$ así se consumiría la cadena de entrada $baa$ a través de la función de transición extendida $\hat{\delta}$:
 
 $$
 \begin{align}
-    \delta(0, baa) &= \hat{\delta}(0, \varepsilon baa) \\
+    \hat{\delta}(0, baa) &= \hat{\delta}(0, \varepsilon baa) \\
     &= \delta(\hat{\delta}(0, \varepsilon ba), a) \\
     &= \delta(\delta(\hat{\delta}(0, \varepsilon b), a), a) \\
     &= \delta(\delta(\delta(\hat{\delta}(0, \varepsilon), b), a), a) \\
@@ -125,12 +125,12 @@ $$
 > L(M) = \{ x \in \Sigma^\ast \mid \hat{\delta}(s, x) \in F \}.
 > $$
 
-**Pregunta:** ¿Cuál es el lenguaje de aceptación de la actividad de [más arriba](#ejemplo-1)?
+**Pregunta:** ¿Cuál es el lenguaje de aceptación del ejemplo de [más arriba](#ejemplo-1)?
 
 ---
-## Definición Lenguajes regulares
+## Definición Lenguajes regulares (LRs)
 
-> **Definición:** Un lenguaje $L$ es un **lenguaje regular** si existe un AFD $M$ tal que
+> **Definición:** Un lenguaje $L$ es un **lenguaje regular** (**LR**) si existe un AFD $M$ tal que
 > 
 > $$L = L(M).$$
 
