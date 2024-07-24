@@ -81,7 +81,7 @@ $$
 ---
 ## Definición función de transición extendida para AFDs: $\hat{\delta}$
 
-> **Definición:** Sea $D = (Q, \Sigma, \delta, s, F)$ un AFD. La **función de transición extendida**[^1], denotada $\hat{\delta}$, es recursivamente definida por:
+> **Definición:** Sea $M = (Q, \Sigma, \delta, s, F)$ un AFD. La **función de transición extendida**[^1], denotada $\hat{\delta}$, es recursivamente definida por:
 > 
 > $$
 > \begin{align}
@@ -138,7 +138,7 @@ $$
 
 ### Actividad 1
 
-1. Sea $L$ el conjunto de palabras sobre $\{a, b\}$ que tienen un número par de $a$es y tienen un número par de $b$es. Demostrar que el lenguaje $L$ es un lenguaje regular.
+1. Sea $L$ el lenguaje comformado por palabras sobre $\{a, b\}$ que tienen un número par de $a$es y tienen un número par de $b$es. Demostrar que el lenguaje $L$ es un lenguaje regular.
 1. Dado un alfabeto $\Sigma$ ¿El conjunto $\Sigma^\ast$ es un lenguaje regular?
 1. ¿$\emptyset$ es lenguaje regular?
 
