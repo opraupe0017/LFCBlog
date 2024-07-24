@@ -23,7 +23,7 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 3 y 4
 
 ### Convenciones
 
-1. Los números naturales incluyen el cero, es decir, $N = \\{0, 1, 2, \ldots\\}$.
+1. Los números naturales incluyen el cero, es decir, $\mathbb{N} = \\{0, 1, 2, \ldots\\}$.
 2. El conjunto potencia de un conjunto $A$ es denotado $2^A$.
 3. Los términos *definición inductiva* y *definición recursiva* se usan como sinónimos.
 
