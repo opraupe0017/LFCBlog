@@ -8,12 +8,6 @@ author: ok
 
 El contenido de este artículo le pertenece al Profesor **Andrés Sicard Ramírez**[^1], quien me ha permitido compartirlo por este medio.
 
-## Contenidos
-{:.no_toc}
-
-* TOC
-{:toc}
-
 ---
 ## Preliminares
 
