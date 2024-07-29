@@ -139,7 +139,7 @@ _Figura 1.6 de (Aho et al. 2008)_
 
 ---
 
-[^1]:http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html
+[^1]: http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html
 [^2]: Lenguaje binario que es leído, interpretado y ejecutado por la CPU.
 
 ---
