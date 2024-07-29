@@ -121,6 +121,24 @@ _Figura 1.6 de (Aho et al. 2008)_
 
 ---
 
+
+
+---
+
+## Referencias
+
+- Aho, Alfred V., Monica S. Lam, Ravi Sethi y Jeffrey D. Ullman [1986] (2006). *Compilers: Principles, Techniques, & Tools*. 2.a ed. Addison-Wesley (vid. págs. 8, 9, 11).
+- — [1986] (2008). *Compiladores: Principios, Técnicas y Herramientas*. Trad. por Alfonso Vidal Romero Elizondo. 2.a ed. Pearson Educación (vid. págs. 21, 22, 24).
+- Church, Alonzo (1936). «An Unsolvable Problem of Elementary Number Theory». En: *American Journal of Mathematics* 58.2, págs. 345-363. doi: [10.2307/2371045](https://doi.org/10.2307/2371045) (vid. págs. 12, 13).
+- Crespi Reghizzi, Stefano, Luca Breveglieri y Angelo Morzenti [2009] (2019). *Formal Languages and Compilation*. 3.a ed. Texts in Computer Science. Springer. doi: [10.1007/978-3-030-04879-2](https://doi.org/10.1007/978-3-030-04879-2) (vid. págs. 8, 9, 14, 15).
+- Kleene, Stephen C. (1956). «Representation of Events in Nerve Nets and Finite Automata». En: *Automata Studies*. Ed. por C. E. Shannon y J. McCarthy. Vol. 34. Annals of Mathematics Studies. Princeton University Press, págs. 3-42 (vid. págs. 12, 13).
+- Kozen, Dexter C. [1997] (2012). *Automata and Computability*. Third printing. Undergraduate Texts in Computer Science. Springer. doi: [10.1007/978-1-4612-1844-9](https://doi.org/10.1007/978-1-4612-1844-9) (vid. págs. 8-10).
+- McCulloch, W. S. y W. Pitts (1943). «A Logical Calculus of The Ideas Immanent in Nervous Activity». En: *Bulletin of Mathematical Biophysics* 5.4, págs. 115-133. doi: [10.1007/BF02478259](https://doi.org/10.1007/BF02478259) (vid. págs. 12, 13).
+- Oettinger, Anthony G. (1961). «Automatic Syntactic Analysis and The Pushdown Store». En: *Proc. Symp. App. Math.* Vol. 12, págs. 104-129 (vid. págs. 12, 13).
+- Turing, Alan M. (1936-1937). «On Computable Numbers, with an Application to the Entscheidungsproblem». En: *Proceedings of the London Mathematical Society* s2-42, págs. 230-265. doi: [10.1112/plms/s2-42.1.230](https://doi.org/10.1112/plms/s2-42.1.230) (vid. págs. 12, 13).
+
+---
+
 [^1]:http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html
 [^2]: Lenguaje binario que es leído, interpretado y ejecutado por la CPU.
 
