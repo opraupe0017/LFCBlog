@@ -236,7 +236,7 @@ s_3 &= (s_1, s_2)
 > 
 > El ADF $M_3$ se llama el **ADF producto** de $M_1$ y $M_2$.
 
-De acuerdo a la definición de *[función de transición extendida](#definición-función-de-transición-extendida-para-afds)* aplicada a $\delta_3$, esto da:
+De acuerdo a la definición de función de transición extendida aplicada a $\delta_3$, esto da:
 
 $$
 \begin{align}
