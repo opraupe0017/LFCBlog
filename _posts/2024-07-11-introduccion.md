@@ -5,7 +5,7 @@ categories: [introducción]
 tags: [lf, af, glc, mt]
 ---
 
-El contenido de este artículo le pertenece al Profesor [**Andrés Sicard Ramírez**](http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html), quien me ha permitido compartirlo por este medio.
+El contenido de este artículo le pertenece al Profesor [**Andrés Sicard Ramírez**]: http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html, quien me ha permitido compartirlo por este medio.
 
 Este artículo tiene como objetivo establecer relaciones entre los modelos de computación, los lenguajes formales, las gramáticas y los compiladores.
 
