@@ -121,7 +121,7 @@ Las partes generales de un compilador son la **parte de análisis** (o *front-en
 
 ### Fases de un compilador
 
-<img src="/LFCBlog/assets/0002_compilador.png" alt="img: Figura 1.6 de (Aho et al. 2008)">
+<img src="/LFCBlog/assets/img/0002_compilador.png" alt="img: Figura 1.6 de (Aho et al. 2008)">
 
 ---
 
