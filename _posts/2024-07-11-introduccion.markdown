@@ -6,7 +6,7 @@ tags: [lf, af, glc, mt]
 author: ok
 ---
 
-El contenido de este artículo le pertenece al Profesor [**Andrés Sicard Ramírez**](http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html), quien me ha permitido compartirlo por este medio.
+El contenido de este artículo le pertenece al Profesor **Andrés Sicard Ramírez**[^1], quien me ha permitido compartirlo por este medio.
 
 Este artículo tiene como objetivo establecer relaciones entre los modelos de computación, los lenguajes formales, las gramáticas y los compiladores.
 
@@ -95,7 +95,7 @@ Un tipo de gramática genera una clase de lenguajes y un modelo de computación 
 
 ### Descripción
 
-Usualmente la **compilación** es la translación de un programa en un lenguaje de programación (lenguaje fuente) en un programa ejecutable en un lenguaje de máquina[^1] (lenguaje destino).
+Usualmente la **compilación** es la translación de un programa en un lenguaje de programación (lenguaje fuente) en un programa ejecutable en un lenguaje de máquina[^2] (lenguaje destino).
 
 Un **compilador** es un **programa** que realiza una compilación.
 
@@ -121,7 +121,8 @@ _Figura 1.6 de (Aho et al. 2008)_
 
 ---
 
-[^1]: Lenguaje binario que es leído, interpretado y ejecutado por la CPU.
+[^1]:http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html
+[^2]: Lenguaje binario que es leído, interpretado y ejecutado por la CPU.
 
 ---
 
