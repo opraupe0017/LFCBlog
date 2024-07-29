@@ -107,7 +107,7 @@ Un **compilador** es un **programa** que realiza una compilación.
 
 ### Otros programas requeridos para generar un programa ejecutable
 
-<img src="/LFCBlog/assets/0001_compilador.png" alt="img: Figura 1.5 de (Aho et al. 2008)">
+<img src="/LFCBlog/assets/img/0001_compilador.png" alt="img: Figura 1.5 de (Aho et al. 2008)">
 
 ### Partes de un compilador
 
