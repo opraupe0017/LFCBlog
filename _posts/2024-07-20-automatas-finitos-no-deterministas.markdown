@@ -90,8 +90,8 @@ y expresarlo con las dos representaciones.
 > $$
 > \begin{align*}
 >     \hat{\Delta} : 2^Q \times \Sigma^* &\to 2^Q \\
->     \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
->     \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= > \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.
+>     \hat{\Delta}(A, \varepsilon) &= A, \\
+>     \hat{\Delta}(A, xa) &= \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= > \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.
 > \end{align*}
 > $$
 
