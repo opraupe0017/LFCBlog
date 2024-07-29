@@ -107,7 +107,7 @@ Un **compilador** es un **programa** que realiza una compilación.
 
 ### Otros programas requeridos para generar un programa ejecutable
 
-<img src="/LFCBlog/assets/img/0001_compilador.png" alt="img: Figura 1.5 de (Aho et al. 2008)">
+<img src="assets/img/0001_compilador.png" alt="img: Figura 1.5 de (Aho et al. 2008)">
 
 ### Partes de un compilador
 
@@ -121,7 +121,7 @@ Las partes generales de un compilador son la **parte de análisis** (o *front-en
 
 ### Fases de un compilador
 
-<img src="/LFCBlog/assets/img/0002_compilador.png" alt="img: Figura 1.6 de (Aho et al. 2008)">
+<img src="/assets/img/0002_compilador.png" alt="img: Figura 1.6 de (Aho et al. 2008)">
 
 ---
 
