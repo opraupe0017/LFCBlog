@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  "Introducción"
 date:   2024-07-11 06:00:00 -0500
-categories: introducción
-author: Oscar García
+categories: [introducción]
+tag: [lf, af, glc, mt]
 ---
 
 El contenido de este artículo le pertenece al Profesor [**Andrés Sicard Ramírez**](http://www1.eafit.edu.co/asr/cursos/st0270-lenguajes-formales-y-compiladores/index.html), quien me ha permitido compartirlo por este medio.
@@ -107,7 +106,8 @@ Un **compilador** es un **programa** que realiza una compilación.
 
 ### Otros programas requeridos para generar un programa ejecutable
 
-<img src="/LFCBlog/assets/img/0001_compilador.png" alt="img: Figura 1.5 de (Aho et al. 2008)">
+![Figura 1.5 de (Aho et al. 2008)](/assets/img/0001_compilador.png)
+_Figura 1.6 de (Aho et al. 2008)_
 
 ### Partes de un compilador
 
@@ -121,7 +121,8 @@ Las partes generales de un compilador son la **parte de análisis** (o *front-en
 
 ### Fases de un compilador
 
-<img src="/LFCBlog/assets/0002_compilador.png" alt="img: Figura 1.6 de (Aho et al. 2008)">
+![Figura 1.6 de (Aho et al. 2008)](/assets/img/0002_compilador.png)
+_Figura 1.6 de (Aho et al. 2008)_
 
 ---
 
