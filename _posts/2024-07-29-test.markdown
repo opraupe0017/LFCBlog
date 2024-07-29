@@ -1,0 +1,10 @@
+---
+title: "How to test Terraform modules: a simple tutorial using IBM Cloud provider"
+date: 2024-07-29 09:00:00 +0100
+categories: [DevOps, IaC]
+tags: [terraform, ibmcloud, terratest, go, testing]     ## TAG names should always be lowercase
+author: srodi
+---
+
+### Introduction
+As part of a production grade Terraform deployment, testing plays an integral part. This tutorial will demonstrate how to write and effectively test a Terraform module before deploying to a production environment.
