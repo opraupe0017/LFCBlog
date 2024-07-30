@@ -73,7 +73,7 @@ $$
 \end{align*}
 $$
 
-**Observación:** Siempre es posible representar un ADF de las $3$ formas.
+**Observación:** Siempre es posible representar un AFD de las $3$ formas.
 
 ---
 ## Definición función de transición extendida para AFDs: $\hat{\delta}$
@@ -192,7 +192,7 @@ también es un número complejo.
 > también es un **lenguaje regular**.
 {: .prompt-tip }
 
-> **Observación:** La demostración de esta propiedad es muy sencilla. Solo basta con hacer una ligera modificación a un ADF...
+> **Observación:** La demostración de esta propiedad es muy sencilla. Solo basta con hacer una ligera modificación a un AFD...
 {: .prompt-info }
 
 ---
@@ -213,7 +213,7 @@ también es un número complejo.
 > Se usan dos resultados preliminares[^2].
 {: .prompt-info }
 
-### Definición ADF producto
+### Definición AFD producto
 
 > **Definición:** Supongamos que $L_1$ y $L_2$ son lenguajes regulares. Entonces existen autómatas
 > 
@@ -247,7 +247,7 @@ s_3 &= (s_1, s_2)
 \end{align}
 > $$
 > 
-> El ADF $M_3$ se llama el **ADF producto** de $M_1$ y $M_2$.
+> El AFD $M_3$ se llama el **AFD producto** de $M_1$ y $M_2$.
 {: .prompt-warning }
 
 De acuerdo a la definición de función de transición extendida aplicada a $\delta_3$, esto da:
@@ -260,9 +260,9 @@ $$
 \end{align}
 $$
 
-### Lema sobre el ADF producto
+### Lema sobre el AFD producto
 
-> **Lema:** Dado un ADF producto $M_3$ como el construido [más arriba](#definición-adf-producto). Para todo $x \in \Sigma^*$, $p \in Q_1$ y $q \in Q_2$ se tiene que
+> **Lema:** Dado un AFD producto $M_3$ como el construido [más arriba](#definición-afd-producto). Para todo $x \in \Sigma^*$, $p \in Q_1$ y $q \in Q_2$ se tiene que
 > 
 > $$
 \hat{\delta}_3((p, q), x) = (\hat{\delta}_1(p, x), \hat{\delta}_2(q, x)).
@@ -272,9 +272,9 @@ $$
 > **Observación:** La demostración se hace por inducción sobre $\|x\|$.
 {: .prompt-info }
 
-### Teorema sobre el ADF producto
+### Teorema sobre el AFD producto
 
-> **Teorema:** Dado un ADF producto $M_3$ como el construido [más arriba](#definición-adf-producto). Se tiene que
+> **Teorema:** Dado un AFD producto $M_3$ como el construido [más arriba](#definición-afd-producto). Se tiene que
 > 
 > $$
 L(M_3) = L(M_1) \cap L(M_2).
@@ -284,7 +284,7 @@ $$
 > **Observación:** La demostración se hace por directa por equivalencias empezando con $x \in L(M_3)$ para todo $x \in \Sigma^\ast$.
 {: .prompt-info }
 
-> **Pregunta:** ¿Cómo demuestro el [teorema de la clausura de la intersección de lenguajes regulares](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) con este último [teorema](#teorema-sobre-el-adf-producto)?
+> **Pregunta:** ¿Cómo demuestro el [teorema de la clausura de la intersección de lenguajes regulares](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) con este último [teorema](#teorema-sobre-el-afd-producto)?
 {: .prompt-danger }
 
 ---
