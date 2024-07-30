@@ -91,35 +91,13 @@ y expresarlo con las dos representaciones.
 > **Definición:** Sea $N = (Q, \Sigma, \Delta, S, F)$ un **AFND**. La **función de transición extendida**, denotada $\hat{\Delta}$, está recursivamente definida por:
 >
 > $$
-\begin{align}
-   \hat{\Delta}(S, 01) &= \bigcup_{q_0 \in \hat{\Delta}(S, 0)} \Delta(q_0, 1) \\
-
-   &= \bigcup_{q_0 \in \hat{\Delta}(S, \varepsilon 0)} \Delta(q_0, 1) \\
-
-   &= \bigcup_{q_0 \in \bigcup_{q_1 \in \hat{\Delta}(S, \varepsilon)} \Delta(q_1, 0)} \Delta(q_0, 1) \\
-
-   &= \bigcup_{q_0 \in \bigcup_{q_1 \in S} \Delta(q_1, 0)} \Delta(q_0, 1) \\
-
-   &= \bigcup_{q_0 \in \bigcup_{q_1 \in \left\{p \right\}} \Delta(q_1, 0)} \Delta(q_0, 1) \\
-
-   &= \bigcup_{q_0 \in \Delta(p, 0)} \Delta(q_0, 1) \\
-
-   &= \bigcup_{q_0 \in \left\{p \right\}} \Delta(q_0, 1) \\
-
-   &= \Delta(p, 1) \\
-   
-   &= \left\{p, q \right\}.
-\end{align}
-$$
+> \begin{align}
+>     \hat{\Delta} : 2^Q \times \Sigma^\ast &\to 2^Q \\
+<!--  > \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
+    \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.-->
+> \end{align}
+> $$
 {: .prompt-warning }
-
-$$
-\begin{align}
-    \hat{\Delta} : 2^Q \times \Sigma^\ast &\to 2^Q \\
-    \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
-    \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.
-\end{align}
-$$
 
 ### Ejemplo 2. Procesando una cadena con la definición recursiva
 
