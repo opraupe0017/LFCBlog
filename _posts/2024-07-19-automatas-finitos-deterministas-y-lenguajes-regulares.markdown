@@ -181,6 +181,7 @@ también es un número complejo.
 > $$\sim L$$
 >
 > también es un **lenguaje regular**.
+{: .prompt-tip }
 
 **Observación:** La demostración de esta propiedad es muy sencilla. Solo basta con hacer una ligera modificación a un ADF...
 
@@ -193,6 +194,7 @@ también es un número complejo.
 > $$L_1 \cap L_2$$
 >
 > también es un **lenguaje regular**.
+{: .prompt-tip }
 
 **Observación:** Para demostrar que $L_1 \cap L_2$ es un **lenguaje regular**, construiremos un autómata $M_3$ tal que
 
@@ -253,6 +255,7 @@ $$
 > $$
 \hat{\delta}_3((p, q), x) = (\hat{\delta}_1(p, x), \hat{\delta}_2(q, x)).
 $$
+{: .prompt-tip }
 
 **Observación:** La demostración se hace por inducción sobre $\|x\|$.
 
@@ -263,6 +266,7 @@ $$
 > $$
 L(M_3) = L(M_1) \cap L(M_2).
 $$
+{: .prompt-tip }
 
 **Observación:** La demostración se hace por directa por equivalencias empezando con $x \in L(M_3)$ para todo $x \in \Sigma^\ast$.
 
@@ -277,6 +281,7 @@ $$
 > $$L_1 \cup L_2$$
 >
 > también es un **lenguaje regular**.
+{: .prompt-tip }
 
 **Pregunta:** ¿Cómo demuestro este teorema utilizando los teoremas de clausura de las operaciones [complemento](#teorema-clausura-del-complemento-de-un-lenguaje-regular) e [intersección](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) sobre lenguajes regulares?
 
