@@ -24,6 +24,7 @@ Este blog tiene como objetivo establecer relaciones entre los modelos de computa
 
 7.**Semántica de traducción y análisis estático:** (Crespi Reghizzi et al. 2019, § 5.1–5.4, § 5.5–5.7).
 
+<!--
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 
@@ -38,3 +39,4 @@ Este blog tiene como objetivo establecer relaciones entre los modelos de computa
 
 > This is an example of a Danger block.
 {: .prompt-danger }
+-->
