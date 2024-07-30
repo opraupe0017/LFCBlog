@@ -92,12 +92,34 @@ y expresarlo con las dos representaciones.
 >
 > $$
 \begin{align}
+   \hat{\Delta}(S, 01) &= \bigcup_{q_0 \in \hat{\Delta}(S, 0)} \Delta(q_0, 1) \\
+
+   &= \bigcup_{q_0 \in \hat{\Delta}(S, \varepsilon 0)} \Delta(q_0, 1) \\
+
+   &= \bigcup_{q_0 \in \bigcup_{q_1 \in \hat{\Delta}(S, \varepsilon)} \Delta(q_1, 0)} \Delta(q_0, 1) \\
+
+   &= \bigcup_{q_0 \in \bigcup_{q_1 \in S} \Delta(q_1, 0)} \Delta(q_0, 1) \\
+
+   &= \bigcup_{q_0 \in \bigcup_{q_1 \in \left\{p \right\}} \Delta(q_1, 0)} \Delta(q_0, 1) \\
+
+   &= \bigcup_{q_0 \in \Delta(p, 0)} \Delta(q_0, 1) \\
+
+   &= \bigcup_{q_0 \in \left\{p \right\}} \Delta(q_0, 1) \\
+
+   &= \Delta(p, 1) \\
+   
+   &= \left\{p, q \right\}.
+\end{align}
+$$
+{: .prompt-warning }
+
+$$
+\begin{align}
     \hat{\Delta} : 2^Q \times \Sigma^\ast &\to 2^Q \\
     \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
     \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.
 \end{align}
 $$
-{: .prompt-warning }
 
 ### Ejemplo 2. Procesando una cadena con la definición recursiva
 
