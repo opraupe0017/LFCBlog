@@ -244,7 +244,7 @@ $$
 \begin{align}
     \hat{\delta}_3 : Q_3 \times \Sigma^* &\to Q_3 \\
     \hat{\delta}_3((p, q), \epsilon) &= (p, q), \\
-    \hat{\delta}_3((p, q), xa) &= \hat{\delta}_3(\hat{\delta}_3((p, q), x), a).
+    \hat{\delta}_3((p, q), xa) &= \delta_3(\hat{\delta}_3((p, q), x), a).
 \end{align}
 $$
 
