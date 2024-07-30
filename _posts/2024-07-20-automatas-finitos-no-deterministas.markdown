@@ -98,8 +98,11 @@ y expresarlo con las dos representaciones.
 \end{align}
 $$
 {: .prompt-warning }
-<!--  > \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
-    \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.-->
+
+<!--
+> \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
+  \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.
+-->
 
 ### Ejemplo 2. Procesando una cadena con la definición recursiva
 
@@ -164,7 +167,7 @@ Determinar $\hat{\Delta}(S, 011101)$ del elemplo de [más arriba](#ejemplo-1).
 
 ## Definición de lenguajes aceptados por los AFNDs
 
-De forma similar a los ADF, podemos definir también el lenguaje de aceptación generado por un AFND. Sólo que esta vez debemos tener cuidado con "**comprender porqué usamos intersección en lugar de pertenencia a $F$**"
+De forma similar a los AFD, podemos definir también el lenguaje de aceptación generado por un AFND. Sólo que esta vez debemos tener cuidado con "**comprender porqué usamos intersección en lugar de pertenencia a $F$**"
 
 > **Definición:** Sea $N = (Q, \Sigma, \Delta, S, F)$ un **AFND** y sea $x \in \Sigma^*$.
 > 
