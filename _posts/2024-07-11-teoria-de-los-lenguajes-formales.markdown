@@ -78,7 +78,7 @@ La referencia principal para este artículo es _Kozen (2012, Lectura 2)_.
 > $$
 \begin{align}
     \|\varepsilon\| &\stackrel{\text{def}}{=} 0 \\
-    \|xa\| &\stackrel{\text{def}}{=} 1 + \|x\|$, \ \text{para toda} \ $a \in \Sigma$ \ \text{y} \  $x \in \Sigma^\ast
+    \|xa\| &\stackrel{\text{def}}{=} 1 + \|x\|, \ \text{para toda} \ a \in \Sigma \ \text{y} \  x \in \Sigma^\ast
 \end{align}
 $$
 {: .prompt-warning }
