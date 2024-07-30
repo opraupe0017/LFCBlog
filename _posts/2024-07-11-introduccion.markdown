@@ -26,11 +26,13 @@ Este artículo tiene como objetivo establecer relaciones entre los modelos de co
 
 ## Abstracción
 
-En relación con la **abstracción**, *Kozen (2012, pág. 5)* escribió:
+> En relación con la **abstracción**, *Kozen (2012, pág. 5)* escribió:
 *Cuando se estudian fenómenos del mundo real, uno se da cuenta de patrones y temas recurrentes que aparecen de diversas formas. Estas formas pueden diferir sustancialmente a un nivel superficial, pero pueden tener suficiente semejanza entre sí como para sugerir que hay principios subyacentes comunes en juego. Cuando esto sucede, tiene sentido intentar construir un modelo abstracto que capture estos principios subyacentes de la manera más simple posible, desprovisto de los detalles no importantes de cada manifestación particular. Este es el proceso de abstracción. La abstracción es la esencia del progreso científico, porque centra la atención en los principios importantes, sin estar cargado de detalles irrelevantes.*
+{: .prompt-info }
 
-En relación con la **abstracción**, *Aho et al. (2006, pág. 15)* escribieron:
+> En relación con la **abstracción**, *Aho et al. (2006, pág. 15)* escribieron:
 *El diseño de compiladores está lleno de bellos ejemplos donde problemas del mundo real complicados se resuelven al abstraer la esencia del problema matemáticamente. Estos sirven como excelentes ilustraciones de cómo se pueden usar abstracciones para resolver problemas: tomar un problema, formular una abstracción matemática que capture las características clave y resolverlo usando técnicas matemáticas. La formulación del problema debe estar fundamentada en una comprensión sólida de las características de los programas informáticos, y la solución debe ser validada y refinada empíricamente.*
+{: .prompt-info }
 
 ---
 
@@ -48,7 +50,8 @@ En relación con la **abstracción**, *Aho et al. (2006, pág. 15)* escribieron:
   1. **Máquinas de Turing** (*Turing 1936-1937*).
   2. **Cálculo lambda** (*Church 1936*).
 
-**Observación:** Algunos de los modelos anteriores fueron definidos antes de que los computadores fueran creados.
+> **Observación:** Algunos de los modelos anteriores fueron definidos antes de que los computadores fueran creados.
+{: .prompt-info }
 
 ---
 
@@ -60,8 +63,9 @@ Una **gramática** es un **meta-lenguaje** para describir lenguajes.
 
 ### Acerca de los lenguajes formales
 
-En relación a los **lenguajes formales**, *Crespi Reghizzi et al. (2019, pág. 5)* escribieron:
+> En relación a los **lenguajes formales**, *Crespi Reghizzi et al. (2019, pág. 5)* escribieron:
 *Para que un lenguaje sea formalizado (o formal), la forma de sus oraciones (o sintaxis) y su significado (o semántica) deben estar definidos de manera precisa y algorítmica.*
+{: .prompt-info }
 
 ### Jerarquía de Chomsky (1959) para las gramáticas
 
@@ -87,7 +91,8 @@ Un tipo de gramática genera una clase de lenguajes y un modelo de computación 
 | 1                     | **Dependientes del contexto**          | **Autómatas linealmente acotados**  |
 | 0                     | **Recursivamente enumerables**         | **Máquinas de Turing**              |
 
-**Observación:** La correspondencia indicada en la tabla es un resultado de la **abstracción**.
+> **Observación:** La correspondencia indicada en la tabla es un resultado de la **abstracción**.
+{: .prompt-info }
 
 ---
 
@@ -109,10 +114,12 @@ _Figura 1.5 de (Aho et al. 2008)_
 Las partes generales de un compilador son la **parte de análisis** (o *front-end*) y la **parte de síntesis** (o *back-end*) (*Aho et al. 2008*, pág. 4):
 
 1. **Parte de análisis**: 
-   - *«La parte del análisis divide el programa fuente en componentes e impone una estructura gramatical sobre ellas. Después utiliza esta estructura para crear una representación intermedia del programa fuente... La parte del análisis también recolecta información sobre el programa fuente y la almacena en una estructura de datos llamada tabla de símbolos.»*
+   > - *«La parte del análisis divide el programa fuente en componentes e impone una estructura gramatical sobre ellas. Después utiliza esta estructura para crear una representación intermedia del programa fuente... La parte del análisis también recolecta información sobre el programa fuente y la almacena en una estructura de datos llamada tabla de símbolos.»*
+   {: .prompt-info }
 
 2. **Parte de síntesis**:
-   - *«La parte de la síntesis construye el programa destino deseado a partir de la representación intermedia y de la información en la tabla de símbolos.»*
+   > - *«La parte de la síntesis construye el programa destino deseado a partir de la representación intermedia y de la información en la tabla de símbolos.»*
+   {: .prompt-info }
 
 ### Fases de un compilador
 
