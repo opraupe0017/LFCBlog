@@ -42,8 +42,8 @@ La referencia principal para este artículo es _Kozen (2012, Lectura 2)_.
 
 > **Convenciones:**
 > - Los alfabetos se denotarán por $\Sigma$ y $\Gamma$.
-> - Los símbolos se denotarán por las primeras letras minúsculas $a, b, c, \ldots$
-> - Las cadenas se denotarán por las últimas letras minúsculas $w, x, y, z, \ldots$
+> - Los símbolos se denotarán por las primeras letras minúsculas $a, b, c, \ldots$.
+> - Las cadenas se denotarán por las últimas letras minúsculas $w, x, y, z, \ldots$.
 {: .prompt-info }
 
 ---
@@ -66,7 +66,9 @@ La referencia principal para este artículo es _Kozen (2012, Lectura 2)_.
 >
 > - El conjunto de todos los lenguajes es $2^{\Sigma^\ast}$.
 > - *Kozen (2012) no define el término «lenguaje» explícitamente. En su lugar el texto habla de conjuntos.*
-> - **Note que** $\emptyset \neq \\{\varepsilon\\} \neq \varepsilon$.
+> - **Note que**
+>
+> $$\emptyset \neq \{\varepsilon\} \neq \varepsilon.$$
 {: .prompt-info }
 
 ---
@@ -77,8 +79,8 @@ La referencia principal para este artículo es _Kozen (2012, Lectura 2)_.
 >
 > $$
 \begin{align}
-    \|\varepsilon\| &\stackrel{\text{def}}{=} 0 \\
-    \|xa\| &\stackrel{\text{def}}{=} 1 + \|x\|, \ \text{para toda} \ a \in \Sigma \ \text{y} \  x \in \Sigma^\ast
+    \|\varepsilon\| &\stackrel{\text{def}}{=} 0, \\
+    \|xa\| &\stackrel{\text{def}}{=} 1 + \|x\|, \ \text{para toda} \ a \in \Sigma \ \text{y} \  x \in \Sigma^\ast.
 \end{align}
 $$
 {: .prompt-warning }
@@ -91,8 +93,8 @@ $$
 >
 > $$
 \begin{align}
-    a^0 &\stackrel{\text{def}}{=} \varepsilon \\
-    a^{n+1} &\stackrel{\text{def}}{=} a^n a
+    a^0 &\stackrel{\text{def}}{=} \varepsilon, \\
+    a^{n+1} &\stackrel{\text{def}}{=} a^n a.
 \end{align}
 $$
 {: .prompt-warning }
@@ -105,8 +107,8 @@ $$
 >
 > $$
 \begin{align}
-    x\cdot \varepsilon &\stackrel{\text{def}}{=} x \\
-    x\cdot (ya) &\stackrel{\text{def}}{=} (x \cdot y)a.
+    x \varepsilon \stackrel{\text{def}}{=} &\ \varepsilon x \stackrel{\text{def}}{=} x, \\
+    x (ya) &\stackrel{\text{def}}{=} (x y)a.
 \end{align}
 $$
 {: .prompt-warning }
@@ -114,7 +116,7 @@ $$
 > **Notación:** En general, si $x = a_1a_2\cdots a_n$ y $y = b_1b_2\cdots b_m$ donde $a_i, b_j \in \Sigma$ para $i = 1, 2, \ldots, n$ y $j = 1, 2, \ldots, m$, entonces
 >
 > $$xy = a_1a_2\cdots a_nb_1b_2\cdots b_m.$$
-{: .prompt-warning }
+{: .prompt-info }
 
 ---
 
@@ -163,7 +165,7 @@ $$
 > 
 >    $$
    \begin{align}
-   L^0 &= \{ \varepsilon \} \\
+   L^0 &= \{ \varepsilon \}, \\
    L^{n+1} &= L L^n.
    \end{align}
    $$
