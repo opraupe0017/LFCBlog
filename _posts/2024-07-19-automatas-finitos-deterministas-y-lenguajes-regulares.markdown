@@ -25,8 +25,10 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 3 y 4
 ## Descripción informal de autómatas finitos
 
 > - *Un **estado de un sistema** es una descripción instantánea de ese sistema, una captura de la realidad congelada en el tiempo. Un estado proporciona toda la información relevante necesaria para determinar cómo el sistema puede evolucionar a partir de ese punto. Las **transiciones** son cambios de estado; pueden ocurrir espontáneamente o en respuesta a entradas externas.* (*Kozen 2012, pág. 14*)
+{: .prompt-info }
 
 > - *El **autómata finito** es un modelo matemático de un sistema, con entradas y salidas discretas. El sistema puede estar en cualquiera de un número finito de configuraciones internas o **"estados"**. El estado del sistema resume la información concerniente a entradas pasadas que es necesaria para determinar el comportamiento del sistema en entradas subsecuentes.* (*Hopcroft y Ullman 1979, p. 13*)
+{: .prompt-info }
 
 ---
 ## Definición de autómata finito determinista (AFD)
@@ -42,6 +44,7 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 3 y 4
 > - $\delta : Q \times \Sigma \to Q$, la **función de transición**.
 > - $s \in Q$, el **estado inicial**.
 > - $F \subseteq Q$, el conjunto de **estados finales**.
+{: .prompt-warning }
 
 ---
 ## Representaciones del AFD
@@ -84,6 +87,7 @@ $$
     \hat{\delta}(q, xa) &= \delta(\hat{\delta}(q, x), a).
 \end{align}
 $$
+{: .prompt-warning }
 
 ### Ejemplo 2.
 
@@ -102,7 +106,8 @@ $$
 \end{align}
 $$
 
-**Pregunta:** ¿Porqué $2 \notin F$?
+> **Pregunta:** ¿Porqué $2 \notin F$?
+{: .prompt-danger }
 
 ---
 ## Definición de lenguaje aceptado por los AFDs: $L(M)$
@@ -118,8 +123,10 @@ $$
 > $$
 > L(M) = \{ x \in \Sigma^\ast \mid \hat{\delta}(s, x) \in F \}.
 > $$
+{: .prompt-warning }
 
-**Pregunta:** ¿Cuál es el lenguaje de aceptación del ejemplo de [más arriba](#ejemplo-1)?
+> **Pregunta:** ¿Cuál es el lenguaje de aceptación del ejemplo de [más arriba](#ejemplo-1)?
+{: .prompt-danger }
 
 ---
 ## Definición Lenguajes regulares (LRs)
@@ -127,8 +134,10 @@ $$
 > **Definición:** Un lenguaje $L$ es un **lenguaje regular** (**LR**) si existe un AFD $M$ tal que
 > 
 > $$L = L(M).$$
+{: .prompt-warning }
 
-**Observación:** Kozen (2012) no habla de «lenguajes regulares» sino de «conjuntos regulares».
+> **Observación:** Kozen (2012) no habla de «lenguajes regulares» sino de «conjuntos regulares».
+{: .prompt-info }
 
 ### Actividad 1
 
@@ -183,7 +192,8 @@ también es un número complejo.
 > también es un **lenguaje regular**.
 {: .prompt-tip }
 
-**Observación:** La demostración de esta propiedad es muy sencilla. Solo basta con hacer una ligera modificación a un ADF...
+> **Observación:** La demostración de esta propiedad es muy sencilla. Solo basta con hacer una ligera modificación a un ADF...
+{: .prompt-info }
 
 ---
 
@@ -196,11 +206,12 @@ también es un número complejo.
 > también es un **lenguaje regular**.
 {: .prompt-tip }
 
-**Observación:** Para demostrar que $L_1 \cap L_2$ es un **lenguaje regular**, construiremos un autómata $M_3$ tal que
-
-$$L(M_3) = L_1 \cap L_2.$$
-
-Se usan dos resultados preliminares[^2].
+> **Observación:** Para demostrar que $L_1 \cap L_2$ es un **lenguaje regular**, construiremos un autómata $M_3$ tal que
+>
+> $$L(M_3) = L_1 \cap L_2.$$
+>
+> Se usan dos resultados preliminares[^2].
+{: .prompt-info }
 
 ### Definición ADF producto
 
@@ -237,6 +248,7 @@ s_3 &= (s_1, s_2)
 > $$
 > 
 > El ADF $M_3$ se llama el **ADF producto** de $M_1$ y $M_2$.
+{: .prompt-warning }
 
 De acuerdo a la definición de función de transición extendida aplicada a $\delta_3$, esto da:
 
@@ -257,7 +269,8 @@ $$
 $$
 {: .prompt-tip }
 
-**Observación:** La demostración se hace por inducción sobre $\|x\|$.
+> **Observación:** La demostración se hace por inducción sobre $\|x\|$.
+{: .prompt-info }
 
 ### Teorema sobre el ADF producto
 
@@ -268,9 +281,11 @@ L(M_3) = L(M_1) \cap L(M_2).
 $$
 {: .prompt-tip }
 
-**Observación:** La demostración se hace por directa por equivalencias empezando con $x \in L(M_3)$ para todo $x \in \Sigma^\ast$.
+> **Observación:** La demostración se hace por directa por equivalencias empezando con $x \in L(M_3)$ para todo $x \in \Sigma^\ast$.
+{: .prompt-info }
 
-**Pregunta:** ¿Cómo demuestro el [teorema de la clausura de la intersección de lenguajes regulares](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) con este último [teorema](#teorema-sobre-el-adf-producto)?
+> **Pregunta:** ¿Cómo demuestro el [teorema de la clausura de la intersección de lenguajes regulares](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) con este último [teorema](#teorema-sobre-el-adf-producto)?
+{: .prompt-danger }
 
 ---
 
@@ -283,7 +298,8 @@ $$
 > también es un **lenguaje regular**.
 {: .prompt-tip }
 
-**Pregunta:** ¿Cómo demuestro este teorema utilizando los teoremas de clausura de las operaciones [complemento](#teorema-clausura-del-complemento-de-un-lenguaje-regular) e [intersección](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) sobre lenguajes regulares?
+> **Pregunta:** ¿Cómo demuestro este teorema utilizando los teoremas de clausura de las operaciones [complemento](#teorema-clausura-del-complemento-de-un-lenguaje-regular) e [intersección](#teorema-clausura-de-la-intersección-de-lenguajes-regulares) sobre lenguajes regulares?
+{: .prompt-danger }
 
 ---
 
