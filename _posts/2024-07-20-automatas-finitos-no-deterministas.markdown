@@ -93,6 +93,7 @@ y expresarlo con las dos representaciones.
 > $$
 > \begin{align}
 >     \hat{\Delta} : 2^Q \times \Sigma^\ast &\to 2^Q \\
+>     \hat{\Delta}(A, \varepsilon) &= A, \\
 > \end{align}
 > $$
 {: .prompt-warning }
