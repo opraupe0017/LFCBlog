@@ -91,11 +91,12 @@ y expresarlo con las dos representaciones.
 > **Definición:** Sea $N = (Q, \Sigma, \Delta, S, F)$ un **AFND**. La **función de transición extendida**, denotada $\hat{\Delta}$, está recursivamente definida por:
 >
 > $$
-> \begin{align}
->     \hat{\Delta} : 2^Q \times \Sigma^\ast &\to 2^Q \\
->     \hat{\Delta}(A, \varepsilon) &= A, \\
-> \end{align}
-> $$
+\begin{align}
+    \hat{\Delta} : 2^Q \times \Sigma^\ast &\to 2^Q \\
+    \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
+    \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a)
+\end{align}
+$$
 {: .prompt-warning }
 <!--  > \hat{\Delta}(A, \varepsilon) &\stackrel{\text{def}}{=} A, \\
     \hat{\Delta}(A, xa) &\stackrel{\text{def}}{=} \bigcup_{q \in \hat{\Delta}(A, x)} \Delta(q, a) %= \bigcup \left\{\Delta(q, a) \mid q \in \hat{\Delta}(A, x) \right\}.-->
