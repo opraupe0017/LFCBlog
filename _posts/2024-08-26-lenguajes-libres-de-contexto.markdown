@@ -97,8 +97,6 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 19 y 
 > $$
 {: .prompt-warning .shadow }
 
-Este formato incluye expresiones matemáticas y resaltado en **negrita** para las partes importantes del texto.
-
 ## Definición de lenguaje libre de contexto (LLC)
 
 > **Definición:** Sea $\Sigma$ un alfabeto y $L \subseteq \Sigma^\ast$ un lenguaje. Se dice que $L$ es un **lenguaje libre de contexto** (**LLC**) si existe una gramática $G$ tal que
