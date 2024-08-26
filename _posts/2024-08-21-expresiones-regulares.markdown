@@ -176,10 +176,37 @@ expresiones regulares $\alpha$ y $\beta$, entonces
 
 ### Lema de bombeo (The Pumping Lemma)
 
-> **Lema:** Sea $L$ un lenguaje regular. Entonces, $L$ satisface la siguiente propiedad **(P)**:
+> **Lema:** Sea $L$ un lenguaje regular. Entonces, $L$ satisface la siguiente propiedad **($P$)**:
 >
 > Existe $k \in \mathbb{N}$, tal que para todas las palabras $x$, $y$, $z$ con $xyz \in L$ y $\|y\| \geq k$, existen palabras $u$, $v$, $w$ tales que $y = uvw$, $v \neq \epsilon$ y para toda $i \in \mathbb{N}$, $xuv^iwz \in L$.
 {: .prompt-tip .shadow }
+
+![img2](/assets/img/0004_lema_bombeo.png)
+_Imagen ejemplo del lema de bombeo._
+
+### Contrarecíbroco del lema de bombeo
+
+> **Lema:** Si lenguaje $L$ satisface la siguiente propiedad **($\neg P$)**:
+>
+> Para todo $k \in \mathbb{N}$, existen las palabras $x$, $y$, $z$ con $xyz \in L$ y $\|y\| \geq k$ y para todas las palabras $u$, $v$, $w$ tales que $y = uvw$ con $v \neq \epsilon$, existe $i \in \mathbb{N}$ tal que $xuv^iwz \notin L$.
+> 
+> Entonces $L$ no es un lenguaje regular.
+{: .prompt-tip .shadow }
+
+### Un juego entre adversarios
+
+El **contrarrecíproco del lema del bombeo** se puede emplear para demostrar que un lenguaje no es regular. La demostración se puede pensar como un juego entre adversarios, en donde usted desea demostrar que un lenguaje $L$ es no regular y su adversario lo contrario.
+
+
+> **Juego de adversarios:**
+>
+> 1. Su adversario selecciona $k \in \mathbb{N}$.
+> 1. Usted selecciona $x$, $y$, $z$ con $xyz \in L$ y $\|y\| \geq k$.
+> 1. Su adversario selecciona $u$, $v$, $w$ tales que $y = uvw$ con $v \neq \epsilon$.
+> 1. Usted selecciona $i \in \mathbb{N}$ tal que $xuv^iwz \notin L$.
+> 
+> Usted gana si $xuv^iwz \notin L$ y su adversario gana de lo contrario.
+{: .prompt-info .shadow }
 
 ---
 
