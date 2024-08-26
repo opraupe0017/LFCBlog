@@ -37,8 +37,6 @@ Las referencias principales para este artículo son (*Kozen 2012, Lecturas 19 y 
 > 4. $S \in N$ (el símbolo inicial).
 {: .prompt-warning .shadow }
 
-Aquí tienes la conversión a Markdown con el formato solicitado:
-
 > **Convenciones:**
 > 
 > - Los **símbolos no terminales** serán denotados con letras mayúsculas: $A$, $B$, $C$, $\dots$.
@@ -61,7 +59,7 @@ Aquí tienes la conversión a Markdown con el formato solicitado:
 >
 > **si y solo si** existen cadenas $\alpha_1, \alpha_2 \in (N \cup \Sigma)^\ast$ y una producción $A \to \gamma \in P$, tales que
 >
-> $$\alpha = \alpha_1 A \alpha_2 \quad \text{y} \quad \beta = \alpha_1 \delta \alpha_2.$$
+> $$\alpha = \alpha_1 A \alpha_2 \quad \text{y} \quad \beta = \alpha_1 \gamma \alpha_2.$$
 {: .prompt-warning .shadow }
 
 > **Observaciónes:**
