@@ -1,6 +1,6 @@
 ---
 title:  "Expresiones regulares"
-date:   2024-08-21 08:25:00 -0500
+date:   2024-08-22 08:25:00 -0500
 categories: [Expresiones regulares, Autómatas finitos no deterministas, Lenguajes regulares]
 tags: [er, afnd, lr] 
 author: ok
